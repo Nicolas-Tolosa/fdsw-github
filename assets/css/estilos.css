@@ -37,3 +37,26 @@ body {
   }
 
 }
+
+footer h1{
+  display: flex;
+  justify-content: center;
+}
+
+footer span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+a{
+  text-decoration: none;
+  color:  white;
+}
+footer img{
+  width: 30px;
+  height: 30px;
+}
+footer p{
+  margin-top: 30px;
+}
