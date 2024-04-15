@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA" content="IE=edge, chrome">
+    <title>Nicolas Tolosa | Porfolio Web</title>
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <style>
+        .container{
+            padding-left: 30%;
+            padding-right: 30%;
+            padding-bottom: 40px;
+            padding-top: 40px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding-inline: 15px;
+            transition-duration: 250ms;
+            font-size: 16px;
+
+            
+        }
+        nav a:hover{
+            color: #f7df1d;
+            background-color: black;
+            padding-block: 5px;
+            border-radius: 20px;
+        }
+        .footer-container{
+            display: flex;
+            justify-content: center;
+        }
+        .footer-container a{
+            text-decoration: none;
+            color: black;
+            transition-duration: 250ms;
+            align-items: center;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <a href="#personal-data">Datos Personales</a>
+                    <a href="#job-experience">Experiencia</a>
+                    <a href="#about-me">Sobre mí</a>
+                    <a href="mailto:nicolas.tolosar@gmail.com">Contacto</a>
+                    <a href="./portafolio.html">Mi Porfolio</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <img src="./assets/images/perfil-fondo.png" alt="Foto de Nicolás Tolosa"
+                    style="height: 115px; width: 115px; border-radius: 100%;">
+                <h1>Nicolás Tolosa Riveros</h1>
+
+                <p>Con menos de 1 año de experiencia, soy <strong>Ingeniero Comercial y Desarrollador Full Stack Javascript</strong>. Afronto los desafíos con compromiso y proactividad. Mi objetivo es desarrollar mi carrera profesional en el mundo del <strong>desarrollo de software.</strong></p>
+            </section>
+
+            <section id="personal-data">
+                <h2>Datos Personales</h2>
+                <ul>
+                    <li>Nombre: Nicolás Tolosa Riveros.</li>
+                    <li>Dirección: Quilicura, Santiago.</li>
+                    <li>Correo Electrónico: nicolas.tolosar@gmail.com</li>
+                    <li>Teléfono: +569 88020111</li>
+                </ul>
+            </section>
+            <section id="job-experience">
+                <h2>Experiencia Laboral</h2>
+                <ol>
+                    <li>
+                        <h3>Practicante Administrador área Producción y Ventas</h3>
+                        <h4>Martiplant SpA, Talagante<br><small>Abr 2023 - Jun 2023</small></h4>
+                        <ul>
+                            <li>Realizar seguimientos de procesos de producción.
+                            </li>
+                            <li>Controlar y clasificar pedidos entre sucursales con de notas de venta generadas con Softland.</li>
+                            <li>Realizar procesos de venta, asesorar clientes y hacer seguimiento post venta al cliente.</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <h3>Investigador de apoyo a la docencia</h3>
+                        <h4>Universidad Tecnológica Metropolitana, Providencia<br><small>Sep 2022 - Dic 2022</small></h4>
+                        <ul>
+                            <li>Desarrollar un informe de investigación y una metodología para estimar la
+                                volatilidad implícita en el mercado de Brasil a través de contratos de
+                                derivados financieros.</li>
+                            <li>Recolectar, transformar, limpiar y modelar datos de www.investing.com.</li>
+                            <li>Interpretar resultados a partir de los datos obtenidos.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section id="academic-background">
+                <h2>Formación Académica</h2>
+                <ul>
+                    <li><strong>Ingeniería Comercial mención Administración de Empresas</strong> | Universidad Tecnológica Metropolitana</li>
+                    <small>2017 - 2023</small>
+                </ul>
+                <h2>Formación Complementaria</h2>
+                <ul>
+                    <li><strong>Desarrollador Full Stack</strong> | Academia Desafío Latam</li>
+                    <small>Actualmente...</small>
+                    <li><strong>Excel Avanzado</strong> | Udemy</li>
+                    <small>Diciembre 2023</small>
+                </ul>
+            </section>
+            <section id="about-me">
+                <h2>
+                    Sobre mí
+                </h2>
+                <article>
+                    <details open>
+                        <summary>¿Quién es Nicolás?</summary>
+                        <p>Me llamo Nicolás, pero todos me dicen Nico. Mucho gusto. Terminé mis estudios como
+                            Ingeniero Comercial y <strong>actualmente comencé un nuevo camino en el Desarrollo
+                                Full Stack.</strong> Desde entonces disfruto del desarrollo web, enfocándome en
+                            crear una experiencia profesional para los usuarios. </p>
+                    </details>
+
+                    <details>
+                        <summary>Mis Logros</summary>
+                        <p>Entre mis logros destaco <strong>colaborar en una investigación para la Revista
+                                Chilena de Economía y Sociedad</strong>, creando una medida capaz de detectar
+                            los cambios en la volatilidad en ciertos mercados emergentes de Latinoamérica. <a
+                                target="_blank"
+                                href="https://rches.utem.cl/wp-content/uploads/sites/8/2024/01/RCHES-vol17-n2.pdf">Échale
+                                un vistazo</a></p>
+                    </details>
+
+                    <details>
+                        <summary>Mis Aspiraciones</summary>
+                        <p>Como Ingeniero Comercial <strong>mi mayor aspiración es poder desarrollar mi propio negocio digital</strong>, utilizando la programación como un medio para desarrollar mis propias ideas sin limites</p>
+                    </details>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+<footer>
+    <div class="container">
+        <div class="footer-container">
+            
+            <a href="https://www.linkedin.com/in/nicolas-tolosa/" target="_blank"><img src="./assets/images/linkedin.png" alt="icono de LinkedIn" height="20px" width="20px"> LinkedIn</a>
+
+            <a href="https://github.com/Nicolas-Tolosa" target="_blank"><img src="./assets/images/github.png" alt="icono de GitHub" height="20px" width="20px"> GitHub</a>
+
+            <a href="https://wa.me/56988020111/?text=Hola%20Nico!%20necesito%20comunicarme%20contigo" target="_blank"><img src="./assets/images/whatsApp.png" alt="icono de WhatsApp" height="20px" width="20px"> Whatsapp</a>
+
+            <a href="tel:+56988020111" target="_blank"><img src="./assets/images/telofono-movil.png" alt="icono de un telefono telofono movil" height="20px" width="20px"> Contactame</a>
+        </div>
+    </div>
+</footer>
+</html>
